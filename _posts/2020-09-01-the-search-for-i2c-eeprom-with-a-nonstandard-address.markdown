@@ -19,7 +19,7 @@ This would be the ideal solution. The NXP PCF85103C starts with address `0010` a
 ##### UPDATE: New Chip Found!
 The NXP PCA9501 is just like the PCA9500, but it provides the user with __6__ address pins. This allows __64__ of these IO Expanders (2<sup>6</sup> = 64) to be on a single I<sup>2</sup>C bus.
 
-![PCA9501 Address Configuration](PCA9501_Address.png){:class="img-responsive"}
+![PCA9501 Address Configuration](assets/img/20200901-EEPROM/PCA9501_Address.png){:class="img-responsive"}
 ### 2. Use an I<sup>2</sup>C address translator.
 Not really attractive because of the added cost, but if it's done right there's no extra code required to control it. The LTC4316 is a good candidate for this option.
 ### 3. I<sup>2</sup>C Bridge
