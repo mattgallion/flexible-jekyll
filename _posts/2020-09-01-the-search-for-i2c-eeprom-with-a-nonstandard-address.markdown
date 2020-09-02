@@ -16,7 +16,7 @@ The TPL0102s are here to stay, so I need to figure out some way to get EEPROM on
 ## Potential Solutions
 ### 1. Find an EEPROM chip with a Non-Standard address
 This would be the ideal solution. The NXP PCF85103C starts with address `0010` and would be a good candidate, but it's now obsolete. Searching for alternatives has proven difficult, as it requires digging through DigiKey and searching datasheets one by one to find the address. Some sites have tried to compile I<sup>2</sup>C parts databases but all seem pretty slim, and none include any EEPROM (see: [Adafruit's "The List"](https://learn.adafruit.com/i2c-addresses/the-list), [i2cdevices.org](https://i2cdevices.org/addresses))
-#### UPDATE: New Chip Found!
+#### 🔥 UPDATE: New Chip Found! 🔥
 The NXP PCA9501 is just like the PCA9500, but it provides the user with __6__ address pins. This allows __64__ of these IO Expanders (2<sup>6</sup> = 64) to be on a single I<sup>2</sup>C bus.
 
 ![PCA9501 Address Configuration](/assets/img/20200901-EEPROM/PCA9501_Address.png){:class="img-responsive"}
