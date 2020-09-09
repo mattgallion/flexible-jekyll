@@ -11,7 +11,7 @@ A few months ago I ordered a Fire TV Stick 4K, and ended up receiving 2 by mista
 
 I kind of forgot about the second stick for a few days but once I got it hooked up to an extra TV I was met with this error screen:
 
-![](/assets/img/20200908-Fire/FireError.jpeg){:.small-image}
+[![](/assets/img/20200908-Fire/FireError.jpeg){:.small-image}](/assets/img/20200908-Fire/FireError.jpeg)
 *Image courtesy Amazon forum*
 
 Okay, that’s weird. I did the usual unplug, wait, and re-plug to no avail. I did some minor googling and Amazon’s troubleshooting didn’t work. I gave up. 
