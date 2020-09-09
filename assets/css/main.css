@@ -911,6 +911,11 @@ table tfoot td {
   clear: both;
 }
 
+.small-image
+{
+  width: 50%;
+}
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 .sidebar {
   display: -webkit-box;
