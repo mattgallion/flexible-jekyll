@@ -913,6 +913,9 @@ table tfoot td {
 
 .small-image
 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
 }
 
