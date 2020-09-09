@@ -2,7 +2,7 @@
 layout: post
 title: "Finding Fire TV Serial Number over Bluetooth Low Energy"
 date: "2020-09-08 23:20:00 -0500"
-img: /img/20200908-Fire/FireError.jpeg # Add image post (optional)
+img: img/20200908-Fire/FireError.jpeg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [bluetooth, ble]
 ---
