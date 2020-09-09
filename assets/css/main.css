@@ -791,6 +791,14 @@ img {
   display: inline-block;
 }
 
+img[alt=small] {
+  width: 70%;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+  background: none;
+}
+
 img + em {
   text-align: center;
   display: block;
